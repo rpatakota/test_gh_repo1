@@ -1,0 +1,31 @@
+option1: Push all changes from github to bitbucket.
+
+Steps:
+
+
+:cd c:\users\ppr\git
+
+:git clone https://github.com/rpatakota/test_gh_repo1.git
+
+:create a  repository "test_gh_repo1" on bitbucket.org 
+
+:git remote add rp-bitbucket https://reddypp@bitbucket.org/reddypp/test_gh_repo1
+
+:git pull
+
+C:\Users\ppr\git\test_gh_repo1>git pull
+Already up-to-date.
+
+:git push --all rp-bitbucket
+
+C:\Users\ppr\git\test_gh_repo1>git push --all rp-bitbucket
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 741 bytes | 247.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+To https://bitbucket.org/reddypp/test_gh_repo1
+ * [new branch]      master -> master
+
+ 
+ : validate the files on the new repo ob bitbucket 
