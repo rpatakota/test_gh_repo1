@@ -28,4 +28,6 @@ To https://bitbucket.org/reddypp/test_gh_repo1
  * [new branch]      master -> master
 
  
- : validate the files on the new repo ob bitbucket 
+: validate the files on the new repo ob bitbucket 
+ validated that the newly created repo has the files.
+ 
